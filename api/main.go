@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
+	"github.com/Kubosaka/qr_checker/api/drivers"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/qrchecker/api/drivers"
 )
 
 type User struct {
