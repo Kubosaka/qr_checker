@@ -1,9 +1,8 @@
-module github.com/Kubosaka/qr_checker
+module github.com/Kubosaka/qr_checker/api
 
 go 1.19
 
 require (
-	github.com/Kubosaka/qr_checker/api v0.0.0-20230125073403-fc4b94297051
 	github.com/joho/godotenv v1.4.0
 	github.com/labstack/echo/v4 v4.10.0
 	gorm.io/driver/mysql v1.4.5
